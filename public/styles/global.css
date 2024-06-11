@@ -1,0 +1,56 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color:#1e1e1e;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width:100%;
+}
+
+
+button{
+  background:transparent;
+  padding: 15px 25px;
+  margin:20px 5px 40px 0px;
+  border-color: transparent;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+button.focus\:outline-none.notActive.activeColor {
+  background: #ffe600;
+}
+
+.MuiTypography-h2{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.MuiTypography-h4{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.MuiTypography-p{
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
